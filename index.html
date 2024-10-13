@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Health and Wellness project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1>Healthy Recipe Generator</h1>
+        <p>Create healthy recipes with ingredients at hand </p>
+    </nav>
+
+
+    <div class="container">
+        <section id="ingredients">
+            <h2>Enter Ingredients You have at hand!</h2>
+            <div class="ingbox">
+                <input type="text" id="ingredientInput" placeholder="Enter an ingredient">
+                <button onclick="addIngredient()">Add Ingredient</button>
+                <ul id="ingredientList"></ul>
+            </div>
+        </section>
+
+
+        <section id="restrictions">
+            <h2>Dietary Restrictions</h2>
+            <input type="checkbox" id="vegetarian">
+            <label for="vegetarian">Vegetarian</label><br>
+            <input type="checkbox" id="vegan">
+            <label for="vegan">Vegan</label><br>
+
+            <input type="checkbox" id="glutenFree">
+            <label for="glutenFree">Gluten-Free</label><br>
+
+            <input type="checkbox" id="lactoseIntolerant">
+            <label for="lactoseIntolerant">Lactose Intolerant</label><br>
+
+            <h3>Enter any other dietary restrictions below: </h3>
+            <div class="resbox"><input type="text" id="restrictionsInput" placeholder="Enter Dietary Restrictions">
+                <button onclick="addRestriction()">Add Restrictions</button>
+                <br>
+                <ul id="restrictionsList"></ul>
+            </div>
+        </section>
+
+
+        <button class="button" onclick="generateRecipes()">Generate Recipes</button>
+
+
+        <section id="recipes">
+            <h2> Here is your recipe! </h2>
+            <div id="recipeList">
+            </div>
+        </section>
+    </div>
+
+
+    <script src="MainPage.js"></script>
+</body>
+
+</html>
