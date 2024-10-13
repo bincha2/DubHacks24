@@ -1,3 +1,5 @@
+Created by David Kim, Tasin Chowdhury, Jeffrey Guo
+
 Main Track: Universal Wellness
 Side-track: Cloudflare AI
 
