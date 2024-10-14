@@ -1,8 +1,9 @@
+
 Created by David Kim, Tasin Chowdhury, Jeffrey Guo
 
 Title Track: Universal Wellness
 
-Side-track: Cloudflare AI
+Side-track: Cloudflare AI -- 🥇 Winner, Best AI Application Built with Cloudflare
 
 Description: Embark on a journey with Angelfin and uncover the serene path to **health and wellness**, bridging the realms of the physical and spiritual worlds! 
 Delve into solutions for cybersecurity, sustaining life in extraterrestrial environments, and nurturing **emotional and physical health** across the galaxies.
